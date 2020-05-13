@@ -12,11 +12,11 @@ if [ ! -x $1 ]; then
     version=$1
 else
     echo "Usage: sh $0 {openssh-version}(default is 7.9p1)"
-    echo "version not provided '7.9p1' will be used."
+    echo "version not provided '8.1p1' will be used."
     while true; do
         read -p "Do you want to continue [y/N]: " yn
         case $yn in
-            [Yy]* ) version="8.2p1"; break;;
+            [Yy]* ) version="8.1p1"; break;;
             [Nn]* ) exit ;;
             * ) echo "Please answer yes or no.";;
         esac
