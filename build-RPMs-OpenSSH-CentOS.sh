@@ -16,7 +16,7 @@ else
     while true; do
         read -p "Do you want to continue [y/N]: " yn
         case $yn in
-            [Yy]* ) version="7.9p1"; break;;
+            [Yy]* ) version="8.2p1"; break;;
             [Nn]* ) exit ;;
             * ) echo "Please answer yes or no.";;
         esac
